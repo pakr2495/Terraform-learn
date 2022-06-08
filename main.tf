@@ -1,8 +1,8 @@
-resource "aws_vpc" "pavan-vpc"{
+resource "aws_vpc" "pk-vpc"{
 cidr_block = var.mycidr
 instance_tenancy = "default"
 tags = {
-Name = "Pavan-vpc"
+Name = "Pk-vpc"
 }
 }
 
